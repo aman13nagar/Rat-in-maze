@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rat-in-maze/static/css/main.78972999.css",
+    "main.js": "/Rat-in-maze/static/js/main.92770e04.js",
+    "index.html": "/Rat-in-maze/index.html",
+    "main.78972999.css.map": "/Rat-in-maze/static/css/main.78972999.css.map",
+    "main.92770e04.js.map": "/Rat-in-maze/static/js/main.92770e04.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78972999.css",
+    "static/js/main.92770e04.js"
+  ]
+}
