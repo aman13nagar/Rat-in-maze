@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+.inp_comp{
+  display: flex;
+  flex-direction: column;
+}
+.text h1{
+  color:white;
+}
+.heading{
+  display: block;
+  font-size: 1cm;
+  display: flex;
+  flex-wrap:wrap;
+  place-content: center;
+  color: white;
+}
+.one{
+  display: block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(23, 77, 3);
+  background-color: white;
+}
+.zero{
+  background-color: red;
+  display: block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(85, 156, 168);
+}
+.rows{
+  display: flex;
+}
+.initial_matrix{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(85, 156, 168);
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(184, 114, 68);
+}
+
+.two{
+  background-color: rgb(76, 228, 76);
+  display: block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid rgb(85, 156, 168);
+}
+.output{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+  border: 2px solid green;
+}
+.source {
+  height:52.22px;
+  width:52.22px;
+  background-color: white;
+}
+.source img{
+  height:50px;
+  width:50px;
+  border: 1px solid rgb(85, 156, 168);
+}
+.header{
+  background-color: rgb(21, 177, 177);
+  color: white;
+  height: auto;
+}
+.disc{
+  color:white;
+  height:auto;
+  margin-top:100px;
+  margin-left:100px;
+  font-size:0.3cm;
+}
+.topp{
+  display: flex;
+  place-content: center;
+}
+.disc .p1{
+  display:flex;
+}
+.disc .p2{
+  display:flex;
+}
+.disc .p3{
+  display:flex;
+}
+
+@media(max-width:746px){
+  .topp{
+    display:flex;
+    flex-direction:column;
+  }
+  .disc{
+    color:white;
+    height:auto;
+    font-size:0.25cm;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    place-content: center;
+  }
+}
